@@ -2,6 +2,7 @@
 #include <filesystem>
 #include <fstream>
 
+// Initializes repo structure
 void init_repo() {
     std::filesystem::create_directory(".sgit");
     std::filesystem::create_directory(".sgit/objects");

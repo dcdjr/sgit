@@ -10,7 +10,6 @@ void update_index(const std::string& path, const std::string& hash) {
     std::ifstream in(".sgit/index");
     std::string file, existing_hash;
     
-    
     while (in >> file >> existing_hash) {
         entries[file] = existing_hash;        
     }
