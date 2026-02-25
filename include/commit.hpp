@@ -2,4 +2,4 @@
 #include <string>
 
 void cmd_commit(const std::string& message);
-
+void commit(const std::string& message);
