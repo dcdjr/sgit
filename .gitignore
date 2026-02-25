@@ -1,0 +1,19 @@
+# Build output
+build/
+*.o
+
+# Binary
+sgit
+
+# Runtime repo (if accidentally created here)
+.sgit/
+
+# Test repos
+test_repo/
+
+# Editor
+.vscode/
+*.swp
+
+# Dump script
+*.sh
